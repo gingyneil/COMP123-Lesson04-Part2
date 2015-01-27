@@ -14,6 +14,10 @@ namespace COMP123_Lesson04_Part2
             myHero.doesGoodThings();
 
 
+            Villain myVillain = new Villain("SpiderGirl", 9, 9, "female");
+            myVillain.doesBadThings();
+
+
             // Wait for Input before closing console
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
