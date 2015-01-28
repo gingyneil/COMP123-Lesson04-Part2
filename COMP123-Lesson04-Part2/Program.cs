@@ -10,12 +10,13 @@ namespace COMP123_Lesson04_Part2
     {
         static void Main(string[] args)
         {
-            Hero myHero = new Hero(7, 8, "female");
+            Hero myHero = new Hero("Bravia",7, 8, "female");
             myHero.doesGoodThings();
 
 
             Villain myVillain = new Villain("SpiderGirl", 9, 9, "female");
             myVillain.doesBadThings();
+            
 
 
             // Wait for Input before closing console
